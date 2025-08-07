@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.mat-tab-group {
+    margin-top: 20px;
+}
