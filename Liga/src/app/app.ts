@@ -18,7 +18,6 @@ const FAKE_DATA: PeriodicElement[] = [
   {position: 4, name: 'Dominik', score: 6, played: 4},
   {position: 5, name: 'Micha', score: 4, played: 4},
   {position: 6, name: 'Max', score: 2, played: 3},
-
 ];
 
 
