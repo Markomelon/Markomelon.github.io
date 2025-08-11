@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { MatTab } from '@angular/material/tabs';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
-import {MatSort, Sort, MatSortModule} from '@angular/material/sort';
+// import {MatSort, Sort, MatSortModule} from '@angular/material/sort';
 
 
 const FAKE_DATA: PeriodicElement[] = [
@@ -18,7 +18,7 @@ const FAKE_DATA: PeriodicElement[] = [
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MatTabsModule, MatTab, MatTableModule,MatSortModule],
+  imports: [RouterOutlet, MatTabsModule, MatTab, MatTableModule],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
   
